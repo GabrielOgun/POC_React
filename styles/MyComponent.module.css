@@ -1,0 +1,17 @@
+.container {
+  background-color: #ffe7e7;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #ff4c4c;
+  box-shadow: 0 6px 12px rgba(255, 76, 76, 0.4);
+  color: #880000;
+  margin-bottom: 20px;
+}
+
+.h3 {
+  color: #ff1a1a;
+}
+
+.p {
+  color: #660000;
+}
