@@ -20,7 +20,7 @@ A estrutura de um projeto **Next.js** é organizada de forma a otimizar a constr
 abaixo umn exemplo da estrutura padrão de um projeto Next.js:
 
 ```bash
-my-nextjs-poc/
+poc_react/
 ├── components/
 │   └── MyComponent.js      # Componentes React reutilizáveis
 ├── pages/
