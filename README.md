@@ -6,7 +6,37 @@
 - Artur Valladares Hernandez Giacummo - 10389053  
 - Gabriel Marques Gonçalves Almeida - 10375711  
 
-##
+## Como Executar o Código
+
+Para acessar o site proposto por esta prova de conceito (POC), você tem duas opções:
+
+### Opção 1: Acesso Online
+
+Você pode visualizar o projeto diretamente no navegador acessando o seguinte link:
+
+[**https://gabrielogun.github.io/POC_React/**](https://gabrielogun.github.io/POC_React/)
+
+### Opção 2: Acesso Local
+
+Se preferir trabalhar com uma cópia local do projeto, siga os passos abaixo:
+
+1. **Baixar o Projeto**  
+   - Acesse o repositório do projeto e clique em **"Código"**.  
+   - Selecione a opção **"Baixar ZIP"** para obter o arquivo compactado do projeto.  
+
+2. **Descompactar o Arquivo**  
+   - Após o download, localize o arquivo ZIP em seu computador.  
+   - Descompacte o arquivo para uma pasta de sua escolha.
+     
+3. **instale as dependências: No diretório do seu projeto, execute:
+   - npm install
+     
+4 **Execute o servidor de desenvolvimento:
+   - npm run dev
+
+5 **Acesse o projeto no navegador:
+   - http://localhost:3000
+
 
 ## Requisitos
 - **Node.js** versão 14 ou superior
