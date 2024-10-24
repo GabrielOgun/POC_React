@@ -27,15 +27,22 @@ Se preferir trabalhar com uma cópia local do projeto, siga os passos abaixo:
 2. **Descompactar o Arquivo**  
    - Após o download, localize o arquivo ZIP em seu computador.  
    - Descompacte o arquivo para uma pasta de sua escolha.
-     
-3. **instale as dependências: No diretório do seu projeto, execute:
-   - npm install
-     
-4 **Execute o servidor de desenvolvimento:
-   - npm run dev
 
-5 **Acesse o projeto no navegador:
-   - http://localhost:3000
+3. **Instalar as dependências**  
+   - No diretório do seu projeto, execute:  
+     ```bash
+     npm install
+     ```
+
+4. **Executar o servidor de desenvolvimento**  
+   - No diretório do projeto, execute:  
+     ```bash
+     npm run dev
+     ```
+
+5. **Acessar o projeto no navegador**  
+   - Abra o navegador e acesse:  
+     [http://localhost:3000](http://localhost:3000)
 
 
 ## Requisitos
