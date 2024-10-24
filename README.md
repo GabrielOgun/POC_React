@@ -22,23 +22,25 @@ abaixo umn exemplo da estrutura padrão de um projeto Next.js:
 ```bash
 poc_react/
 ├── components/
-│   └── MyComponent.js      # Componentes React reutilizáveis
+│   └── MyComponent.js      
 ├── pages/
-│   ├── index.js            # Página inicial da aplicação (/) 
-│   └── _app.js             # Configuração de estilos globais e app wrapper
+│   ├── index.js            
+│   └── _app.js            
 ├── public/
-│   └── images/             # Arquivos estáticos (imagens, fontes, etc.)
+│   └── images/            
 ├── styles/
-│   ├── globals.css         # Estilos globais aplicados à aplicação
-│   └── MyComponent.module.css # Estilo modular para o componente
-├── package.json            # Dependências do projeto e scripts de execução
-└── next.config.js          # Configurações específicas do Next.js
+│   ├── globals.css         
+│   └── MyComponent.module.css
+├── package.json          
+└── next.config.js         
 ```
 
 - **`components/`**: Armazena componentes React reutilizáveis. Cada componente pode ter seu próprio arquivo CSS módulo.
 - **`pages/`**: Define as rotas do projeto. Cada arquivo dentro dessa pasta se torna uma rota no sistema.
 - **`public/`**: Contém arquivos estáticos, como imagens ou fontes, que podem ser referenciados diretamente nas páginas ou componentes.
 - **`styles/`**: Armazena os arquivos de estilo. Inclui estilos globais e arquivos de módulos CSS.
+- **`packege.json/`**: Define as dependências, scripts e metadados do projeto. Ele gerencia as bibliotecas necessárias (como react e next), além de configurar comandos úteis, como npm run dev para iniciar o servidor de desenvolvimento.
+- **`next.config.js/`**:é um arquivo opcional que permite configurar ajustes avançados no Next.js, como modificações em webpack, redirects, e otimizações específicas.
 
 ## Criação de Componentes Simples
 
